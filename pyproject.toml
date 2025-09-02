@@ -1,0 +1,16 @@
+[project]
+name = "laghound"
+version = "0.1.0"
+description = "A tool for automating the discovery and exploitation of time based user enumeration."
+requires-python = ">=3.13"
+dependencies = [
+    "humanize>=4.13.0",
+    "idox>=1.4.0",
+    "termcolor>=3.1.0",
+    "typer>=0.17.3",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.1.0",
+]
